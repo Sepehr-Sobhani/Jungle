@@ -1,2 +1,10 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+<div class="jumbotron jumbotron-fluid">
+  <h1 class="display-3">Hi Admin!</h1>
+  <h3 class="lead">Total Products: <%= @product_count %></h3>
+  <hr class="my-2">
+  <h3 class="lead">Total Categories: <%= @category_count %></h3>
+  <p class="lead">
+  <%= link_to "All Products", "admin/products", class: "btn btn-primary" %>
+  </p>
+</div>
