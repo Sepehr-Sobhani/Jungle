@@ -1,2 +1,29 @@
-<h1>About#index</h1>
-<p>Find me in app/views/about/index.html.erb</p>
+<style>
+body {
+  background-image: url('https://images.unsplash.com/photo-1577209299418-485f60c0d4de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1263&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+</style>
+<div class="aboutus-section paddingTB60">
+  <div class="container">
+    <h1>Welcome to the Jungle!</h1>
+    <div class="row">
+      <div class="col-md-6">
+          <h1 class="strong">Who we are and<br>what we do</h1>
+          <p class="lead">Jungle was first founded by Lighthouse Labs in 1994. We have some of the craziest products you can't get anywhere else!!!</p>
+      </div>
+      <div class="col-md-4">
+        <p>In our store, you will find all kinds of weird products from the Optimal Sleeping Bed to the Russian Spy Shoes.</p>
+        <p>As you browse, we ask you to keep an open mind and enjoy all the unique items!</p>
+        <p><strong>So, what are you waiting for? You're in the jungle, go and explore!</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p align="center">
+  <br><%= link_to "Jungle", :root, class: 'btn btn-lg btn-info' %>
+</p>
