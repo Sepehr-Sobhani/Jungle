@@ -1,6 +1,13 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. Using Stripe to order items and "make payments". Model and Feature testing is done with Rspec. Also using basic http authentication in ruby to secure the "admin" side the site. With successful login admins can create new catagories and products and save them to the database.
+
+## Final Product
+
+- Navigating the page, and adding items to the cart.
+  ![Navigating]
+- Accessing the Admin.
+  ![Admin-Access]
 
 ## Setup
 
@@ -24,3 +31,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 - PostgreSQL 9.x
 - Stripe
+- sass-rails 5.x
+- uglifier >= 1.3.0
+- jquery-rails
+- jbuilder 2.x
+- sdoc
+- faker
+- money-rails
+- bcrypt 3.1.7
